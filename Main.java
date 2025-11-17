@@ -16,6 +16,7 @@ public class Main {
     }
     public static void p(String file1, String file2, String newFile) throws Exception {
         PrintWriter productWriter = new PrintWriter(new File(newFile));
+	// First argument grabs directory, second argument searches file name
         File firstFile = new File("./", file1);
         File secondFile = new File("./", file2);
         Scanner scanFirst = new Scanner(firstFile);
