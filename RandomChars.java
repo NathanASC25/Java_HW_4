@@ -1,4 +1,4 @@
-public class RandomNums {
+public class RandomChars {
     public static void main(String[] args) {
         System.out.print("\n");
         generateNums();
