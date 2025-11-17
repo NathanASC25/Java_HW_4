@@ -6,7 +6,7 @@ public class RandomChars {
     }
     public static void generateNums() {
         char letter = 65;
-	// Extra variable totalChars to keep count of characters
+        // Extra variable totalChars to keep count of characters
 	int totalChars = 0;
         int upperCaseLetters[] = new int[26];
         for (int i = 0; i < 1000; i++) {
@@ -19,7 +19,7 @@ public class RandomChars {
 	    // Extra Line to accumulate number of Characters.
 	    totalChars += upperCaseLetters[i];
         }
-	// Prints numbers of characters
-	System.out.printf("\n\nTotal Characters: %d\n", totalChars);
+        // Prints numbers of characters
+        System.out.printf("\n\nTotal Characters: %d\n", totalChars);
     }
 }
