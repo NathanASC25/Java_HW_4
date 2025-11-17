@@ -4,7 +4,8 @@ import java.io.PrintWriter;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        File file1 = new File("firstNum.txt");
+        // Test case
+		File file1 = new File("firstNum.txt");
         File file2 = new File("secondNum.txt");
         PrintWriter write1 = new PrintWriter(file1);
         PrintWriter write2 = new PrintWriter(file2);
@@ -16,7 +17,7 @@ public class Main {
     }
     public static void p(String file1, String file2, String newFile) throws Exception {
         PrintWriter productWriter = new PrintWriter(new File(newFile));
-	// First argument grabs directory, second argument searches file name
+	    // First argument grabs directory, second argument searches file name
         File firstFile = new File("./", file1);
         File secondFile = new File("./", file2);
         Scanner scanFirst = new Scanner(firstFile);
