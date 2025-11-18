@@ -7,6 +7,7 @@ public class Question2 {
         // Existing test file location
         File testFile = new File("./TextFiles", "Test1.txt");
         File output = new File("./TextFiles/output.txt");
+        // Separate File to determine averages equal, below, or above overall average
         File output2 = new File("./TextFiles/output2.txt");
         String[] repNames = new String[100];
         double[] avgTripLengths = new double[100];
@@ -24,6 +25,7 @@ public class Question2 {
         File testFile = new File("./TextFiles", "Test1.txt");
         Scanner readFile = new Scanner(testFile);
         int recordCount = 0;
+        // Reads each token
         while (readFile.hasNext()) {
             String name = readFile.next();
             float firstTrip = readFile.nextFloat();
@@ -38,6 +40,7 @@ public class Question2 {
     }
     // Part 2.
     public static void compareTripLengths(File output, double[] avgTripLengths, int totalRecords) throws Exception {
+        // Output written to separate file to prevent overwrite
         PrintWriter writeOutput = new PrintWriter(output);
         double totalTripLength = 0.0;
         double overallAvgTripLength = 0.0;
@@ -66,7 +69,7 @@ public class Question2 {
     }
        // Part 3.
     public static void sortIndividuals(String[] names, double[] avgTripLengths, int totalRecords) {
-	// If the first character of the second name belongs later in the alphabet compared to the first name, places are switched
+        // If the first character of the second name belongs later in the alphabet compared to the first name, places are switched
         for (int i = 0; i < totalRecords - 1; i++) {
             char[] firstName = names[i].toCharArray();
             for (int j = i + 1; j < totalRecords; j++) {
