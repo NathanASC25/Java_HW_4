@@ -78,8 +78,8 @@ public class Question2 {
                     double newFirstTripLength = avgTripLengths[j];
                     avgTripLengths[j] = avgTripLengths[i];
                     avgTripLengths[i] = newFirstTripLength;
-	        }
-	    }
+                }
+            }
         }
     }
 }
