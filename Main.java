@@ -4,21 +4,21 @@ import java.io.PrintWriter;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-	// Test Case
-	Scanner userInput = new Scanner(System.in);
+        // Test Case
+        Scanner userInput = new Scanner(System.in);
         File file1 = new File("firstNum.txt");
         File file2 = new File("secondNum.txt");
         PrintWriter write1 = new PrintWriter(file1);
         PrintWriter write2 = new PrintWriter(file2);
-	System.out.println("Enter a factor for multiplication: ");
-	float num1 = userInput.nextFloat();
-	System.out.println("Enter another factor to multiply: ");
-	float num2 = userInput.nextFloat();
+        System.out.println("Enter a factor for multiplication: ");
+        float num1 = userInput.nextFloat();
+        System.out.println("Enter another factor to multiply: ");
+        float num2 = userInput.nextFloat();
         write1.printf("%f", num1);
         write2.printf("%f", num2);
         write1.close();
         write2.close();
-	userInput.close();
+        userInput.close();
         p("firstNum.txt", "secondNum.txt", "productFile.txt");
     }
     public static void p(String file1, String file2, String newFile) throws Exception {
