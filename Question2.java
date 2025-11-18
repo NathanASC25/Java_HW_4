@@ -71,13 +71,13 @@ public class Question2 {
             char[] firstName = names[i].toCharArray();
             for (int j = i + 1; j < totalRecords; j++) {
                 char[] secondName = names[j].toCharArray();
-	        if (secondName[0] > firstName[0]) {
+                if (secondName[0] > firstName[0]) {
                     String newFirstName = names[j];
-	            names[j] = names[i];
-	            names[i] = newFirstName;
+                    names[j] = names[i];
+                    names[i] = newFirstName;
                     double newFirstTripLength = avgTripLengths[j];
-	            avgTripLengths[j] = avgTripLengths[i];
-	            avgTripLengths[i] = newFirstTripLength;
+                    avgTripLengths[j] = avgTripLengths[i];
+                    avgTripLengths[i] = newFirstTripLength;
 	        }
 	    }
         }
