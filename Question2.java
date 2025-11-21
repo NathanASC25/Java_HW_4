@@ -58,7 +58,7 @@ public class Question2 {
             }
             else if (avgTripLengths[i] < overallAvgTripLength) {
                 belowAvgLength += 1;
-	    }
+            }
             else if (avgTripLengths[i] == overallAvgTripLength) {
                 equalAvgLength += 1;
             }
