@@ -77,9 +77,9 @@ public class Question2 {
             String firstName = names[i];
             for (int j = i + 1; j < totalRecords; j++) {
                 //char[] secondName = names[j].toCharArray();
-	        String secondName = names[j];
+                String secondName = names[j];
                 //if (secondName[0] > firstName[0]) {
-		if (secondName.compareTo(firstName) > 0) {
+                if (secondName.compareTo(firstName) > 0) {
                     String newFirstName = names[j];
                     names[j] = names[i];
                     names[i] = newFirstName;
