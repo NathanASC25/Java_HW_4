@@ -14,12 +14,12 @@ public class Question2 {
         int totalTestRecords = numRecords(repNames, avgTripLengths);
         compareTripLengths(output, avgTripLengths, totalTestRecords);
         sortIndividuals(repNames, avgTripLengths, totalTestRecords);
-	// PrintWriter in Append mode instead of overwriting
-	PrintWriter writeOutput = new PrintWriter(new FileWriter(output, true));
+        // PrintWriter in Append mode instead of overwriting
+        PrintWriter writeOutput = new PrintWriter(new FileWriter(output, true));
         for (int i = 0; i < 100; i++) {
             writeOutput.printf("Rep Name: %s \nAverage Trip Length: %.2f\n\n", repNames[i], avgTripLengths[i]);
         }
-	writeOutput.close();
+        writeOutput.close();
     }
     // Part 1. 
     public static int numRecords(String[] names, double[] avgTripLengths) throws Exception {
@@ -59,14 +59,14 @@ public class Question2 {
             else if (avgTripLengths[i] < overallAvgTripLength) {
                 belowAvgLength += 1;
 	    }
-	    else if (avgTripLengths[i] == overallAvgTripLength) {
+            else if (avgTripLengths[i] == overallAvgTripLength) {
                 equalAvgLength += 1;
-	    }
+            }
         }
         writeOutput.printf("Number of average trip lengths above overall average: %d\n", aboveAvgLength);
         writeOutput.printf("Number of average trip lengths below overall average: %d\n", belowAvgLength);
         writeOutput.printf("Number of average trip lengths equal to overall average: %d\n\nRecords:\n\n", equalAvgLength);
-	writeOutput.close();
+        writeOutput.close();
     }
        // Part 3.
     public static void sortIndividuals(String[] names, double[] avgTripLengths, int totalRecords) {
