@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.PrintWriter;
+import java.io.FileWriter;
 import java.util.Scanner;
 public class Question2 {
     public static void main(String[] args) throws Exception {
@@ -8,17 +9,17 @@ public class Question2 {
         File testFile = new File("./TextFiles", "Test1.txt");
         File output = new File("./TextFiles/output.txt");
         // Separate File to determine averages equal, below, or above overall average
-        File output2 = new File("./TextFiles/output2.txt");
         String[] repNames = new String[100];
         double[] avgTripLengths = new double[100];
         int totalTestRecords = numRecords(repNames, avgTripLengths);
-        compareTripLengths(output2, avgTripLengths, totalTestRecords);
+        compareTripLengths(output, avgTripLengths, totalTestRecords);
         sortIndividuals(repNames, avgTripLengths, totalTestRecords);
-        PrintWriter writeOutput = new PrintWriter(output);
+	// PrintWriter in Append mode instead of overwriting
+	PrintWriter writeOutput = new PrintWriter(new FileWriter(output, true));
         for (int i = 0; i < 100; i++) {
             writeOutput.printf("Rep Name: %s \nAverage Trip Length: %.2f\n\n", repNames[i], avgTripLengths[i]);
         }
-        writeOutput.close();
+	writeOutput.close();
     }
     // Part 1. 
     public static int numRecords(String[] names, double[] avgTripLengths) throws Exception {
@@ -40,7 +41,7 @@ public class Question2 {
     }
     // Part 2.
     public static void compareTripLengths(File output, double[] avgTripLengths, int totalRecords) throws Exception {
-        // Output written to separate file to prevent overwrite
+        // Initial Output written to file
         PrintWriter writeOutput = new PrintWriter(output);
         double totalTripLength = 0.0;
         double overallAvgTripLength = 0.0;
@@ -64,8 +65,8 @@ public class Question2 {
         }
         writeOutput.printf("Number of average trip lengths above overall average: %d\n", aboveAvgLength);
         writeOutput.printf("Number of average trip lengths below overall average: %d\n", belowAvgLength);
-        writeOutput.printf("Number of average trip lengths equal to overall average: %d\n", equalAvgLength);
-        writeOutput.close();
+        writeOutput.printf("Number of average trip lengths equal to overall average: %d\n\nRecords:\n\n", equalAvgLength);
+	writeOutput.close();
     }
        // Part 3.
     public static void sortIndividuals(String[] names, double[] avgTripLengths, int totalRecords) {

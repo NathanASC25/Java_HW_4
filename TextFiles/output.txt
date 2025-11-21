@@ -1,3 +1,9 @@
+Number of average trip lengths above overall average: 42
+Number of average trip lengths below overall average: 58
+Number of average trip lengths equal to overall average: 0
+
+Records:
+
 Rep Name: Roberson 
 Average Trip Length: 267.10
 
