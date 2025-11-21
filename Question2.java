@@ -72,12 +72,12 @@ public class Question2 {
     public static void sortIndividuals(String[] names, double[] avgTripLengths, int totalRecords) {
         // If the first character of the second name belongs later in the alphabet compared to the first name, places are switched
         for (int i = 0; i < totalRecords - 1; i++) {
-	    // Previous implementation utilized char data type but didn't consider characters past index 0
+            // Previous implementation utilized char data type but didn't consider characters past index 0
             //char[] firstName = names[i].toCharArray();
-	    String firstName = names[i];
+            String firstName = names[i];
             for (int j = i + 1; j < totalRecords; j++) {
                 //char[] secondName = names[j].toCharArray();
-		String secondName = names[j];
+	        String secondName = names[j];
                 //if (secondName[0] > firstName[0]) {
 		if (secondName.compareTo(firstName) > 0) {
                     String newFirstName = names[j];
