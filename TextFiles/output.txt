@@ -7,44 +7,44 @@ Records:
 Rep Name: Roberson 
 Average Trip Length: 267.10
 
+Rep Name: Novak 
+Average Trip Length: 451.45
+
 Rep Name: Woodard 
 Average Trip Length: 351.80
-
-Rep Name: Sanford 
-Average Trip Length: 512.40
 
 Rep Name: Moore 
 Average Trip Length: 304.55
 
-Rep Name: Novak 
-Average Trip Length: 451.45
+Rep Name: Jarvis 
+Average Trip Length: 348.95
 
 Rep Name: Jacob 
 Average Trip Length: 294.17
 
+Rep Name: Sanford 
+Average Trip Length: 512.40
+
 Rep Name: Sweeney 
 Average Trip Length: 346.75
-
-Rep Name: Peterson 
-Average Trip Length: 612.55
 
 Rep Name: Brennan 
 Average Trip Length: 349.75
 
-Rep Name: Jarvis 
-Average Trip Length: 348.95
+Rep Name: Peterson 
+Average Trip Length: 612.55
 
-Rep Name: Wolfe 
-Average Trip Length: 457.80
+Rep Name: Navarro 
+Average Trip Length: 240.80
 
-Rep Name: Roman 
-Average Trip Length: 542.50
+Rep Name: Noble 
+Average Trip Length: 474.55
 
 Rep Name: Bridges 
 Average Trip Length: 546.80
 
-Rep Name: Navarro 
-Average Trip Length: 240.80
+Rep Name: Wolfe 
+Average Trip Length: 457.80
 
 Rep Name: Cabrera 
 Average Trip Length: 512.30
@@ -52,8 +52,8 @@ Average Trip Length: 512.30
 Rep Name: Bullock 
 Average Trip Length: 550.90
 
-Rep Name: Noble 
-Average Trip Length: 474.55
+Rep Name: Roman 
+Average Trip Length: 542.50
 
 Rep Name: Fisher 
 Average Trip Length: 501.55
@@ -76,8 +76,8 @@ Average Trip Length: 392.25
 Rep Name: Campbell 
 Average Trip Length: 352.50
 
-Rep Name: Phillips 
-Average Trip Length: 291.25
+Rep Name: Nelson 
+Average Trip Length: 465.35
 
 Rep Name: Fitzgerald 
 Average Trip Length: 339.10
@@ -91,11 +91,11 @@ Average Trip Length: 441.80
 Rep Name: Gates 
 Average Trip Length: 346.70
 
+Rep Name: Phillips 
+Average Trip Length: 291.25
+
 Rep Name: Vega 
 Average Trip Length: 349.20
-
-Rep Name: Nelson 
-Average Trip Length: 465.35
 
 Rep Name: Villanueva 
 Average Trip Length: 240.95
@@ -118,11 +118,14 @@ Average Trip Length: 402.15
 Rep Name: Branch 
 Average Trip Length: 616.35
 
-Rep Name: Whitaker 
-Average Trip Length: 411.30
+Rep Name: Jenkins 
+Average Trip Length: 337.25
 
 Rep Name: Holt 
 Average Trip Length: 430.50
+
+Rep Name: Whitaker 
+Average Trip Length: 411.30
 
 Rep Name: Rodriguez 
 Average Trip Length: 241.30
@@ -130,8 +133,11 @@ Average Trip Length: 241.30
 Rep Name: Shepherd 
 Average Trip Length: 627.75
 
-Rep Name: Jenkins 
-Average Trip Length: 337.25
+Rep Name: Jaramillo 
+Average Trip Length: 409.75
+
+Rep Name: Jenna 
+Average Trip Length: 457.25
 
 Rep Name: Maverick 
 Average Trip Length: 347.10
@@ -139,20 +145,20 @@ Average Trip Length: 347.10
 Rep Name: Winnie 
 Average Trip Length: 482.05
 
-Rep Name: Santiago 
-Average Trip Length: 280.35
-
-Rep Name: Jaramillo 
-Average Trip Length: 409.75
+Rep Name: Allyson 
+Average Trip Length: 702.85
 
 Rep Name: Jaden 
 Average Trip Length: 505.75
 
-Rep Name: Jenna 
-Average Trip Length: 457.25
+Rep Name: Nixon 
+Average Trip Length: 337.10
 
 Rep Name: Mohammed 
 Average Trip Length: 347.30
+
+Rep Name: Aylin 
+Average Trip Length: 321.25
 
 Rep Name: Cervantes 
 Average Trip Length: 288.95
@@ -160,11 +166,11 @@ Average Trip Length: 288.95
 Rep Name: Harmon 
 Average Trip Length: 245.05
 
+Rep Name: Santiago 
+Average Trip Length: 280.35
+
 Rep Name: Reid 
 Average Trip Length: 510.25
-
-Rep Name: Nixon 
-Average Trip Length: 337.10
 
 Rep Name: Emily 
 Average Trip Length: 185.65
@@ -177,6 +183,9 @@ Average Trip Length: 131.00
 
 Rep Name: Bishop 
 Average Trip Length: 183.60
+
+Rep Name: Aubrie 
+Average Trip Length: 280.50
 
 Rep Name: Nataly 
 Average Trip Length: 234.95
@@ -193,6 +202,9 @@ Average Trip Length: 351.95
 Rep Name: Sutton 
 Average Trip Length: 335.95
 
+Rep Name: Arya 
+Average Trip Length: 339.00
+
 Rep Name: Henrik 
 Average Trip Length: 409.30
 
@@ -205,11 +217,11 @@ Average Trip Length: 442.20
 Rep Name: Rylee 
 Average Trip Length: 315.95
 
+Rep Name: Jamie 
+Average Trip Length: 238.65
+
 Rep Name: Timothy 
 Average Trip Length: 423.25
-
-Rep Name: Kian 
-Average Trip Length: 199.95
 
 Rep Name: Idris 
 Average Trip Length: 275.80
@@ -220,17 +232,23 @@ Average Trip Length: 200.20
 Rep Name: Ermias 
 Average Trip Length: 185.35
 
+Rep Name: Alena 
+Average Trip Length: 480.30
+
 Rep Name: Estella 
 Average Trip Length: 326.30
 
 Rep Name: Donovan 
 Average Trip Length: 517.60
 
+Rep Name: Avianna 
+Average Trip Length: 193.50
+
+Rep Name: Kian 
+Average Trip Length: 199.95
+
 Rep Name: Luisa 
 Average Trip Length: 662.75
-
-Rep Name: Jamie 
-Average Trip Length: 238.65
 
 Rep Name: Steven 
 Average Trip Length: 449.30
@@ -247,17 +265,23 @@ Average Trip Length: 394.05
 Rep Name: Dylan 
 Average Trip Length: 186.15
 
+Rep Name: Andrew 
+Average Trip Length: 186.15
+
+Rep Name: Alivia 
+Average Trip Length: 294.10
+
 Rep Name: Khari 
 Average Trip Length: 498.90
 
 Rep Name: Huxley 
 Average Trip Length: 201.60
 
-Rep Name: Nathan 
-Average Trip Length: 234.30
-
 Rep Name: Josiah 
 Average Trip Length: 357.75
+
+Rep Name: Nathan 
+Average Trip Length: 234.30
 
 Rep Name: Guadalupe 
 Average Trip Length: 296.55
@@ -265,42 +289,18 @@ Average Trip Length: 296.55
 Rep Name: James 
 Average Trip Length: 293.95
 
-Rep Name: Andrew 
-Average Trip Length: 186.15
-
-Rep Name: Arya 
-Average Trip Length: 339.00
-
-Rep Name: Adelynn 
-Average Trip Length: 371.65
+Rep Name: Alexander 
+Average Trip Length: 360.50
 
 Rep Name: Alex 
 Average Trip Length: 344.65
 
-Rep Name: Avianna 
-Average Trip Length: 193.50
-
-Rep Name: Aylin 
-Average Trip Length: 321.25
-
-Rep Name: Addison 
-Average Trip Length: 396.85
-
-Rep Name: Alexander 
-Average Trip Length: 360.50
-
-Rep Name: Aubrie 
-Average Trip Length: 280.50
-
-Rep Name: Allyson 
-Average Trip Length: 702.85
-
 Rep Name: Aidan 
 Average Trip Length: 275.65
 
-Rep Name: Alivia 
-Average Trip Length: 294.10
+Rep Name: Adelynn 
+Average Trip Length: 371.65
 
-Rep Name: Alena 
-Average Trip Length: 480.30
+Rep Name: Addison 
+Average Trip Length: 396.85
 
