@@ -8,7 +8,6 @@ public class Question2 {
         // Existing test file location
         File testFile = new File("./TextFiles", "Test1.txt");
         File output = new File("./TextFiles/output.txt");
-        // Separate File to determine averages equal, below, or above overall average
         String[] repNames = new String[100];
         double[] avgTripLengths = new double[100];
         int totalTestRecords = numRecords(repNames, avgTripLengths);
