@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 public class HasUniqueNames {
     public static void main(String[] args) throws Exception {
         File test = new File("./TextFiles/Test1.txt");
-	PrintWriter outputWrite = new PrintWriter(new File("./TextFiles/HasUniqueNames.txt"));
+        PrintWriter outputWrite = new PrintWriter(new File("./TextFiles/HasUniqueNames.txt"));
         Scanner scanTest = new Scanner(test);
         String names[] = new String[100];
         double tripAverages[] = new double[100];
@@ -27,9 +27,9 @@ public class HasUniqueNames {
                 if (name1.equals(name2)) uniqueNames = false;
             }
         }
-	scanTest.close();
+        scanTest.close();
         outputWrite.printf("Records have unique names: %b", uniqueNames);
-	outputWrite.close();
+        outputWrite.close();
         System.out.printf("\n%b\n", uniqueNames);
     }
 }
